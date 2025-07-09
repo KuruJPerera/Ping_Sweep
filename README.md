@@ -16,8 +16,8 @@ This script uses the **subprocess** module to run system-level `ping` commands a
 
 The script prompts the user to input:
 
-- The starting IP address (last octet only)  
-- The ending IP address (last octet only)  
+- The starting IP address  
+- The ending IP address  
 
 It then loops through the specified range of IP addresses (in the **192.168.1.X** subnet), sending a single ping packet to each one:
 
